@@ -1,0 +1,42 @@
+﻿  Compiling CUDA source file P7Q5.cu...
+  
+  C:\Users\StudentPC5\source\repos\MYCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "D:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include"  -G   --keep-dir x64\Debug  -maxrregcount=0  --machine 64 --compile -cudart static  -g  -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o C:\Users\StudentPC5\source\repos\MYCUDA\x64\Debug\P7Q5.cu.obj "C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu" 
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(166): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(167): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(202): warning #549-D: variable "Res_d" is used before its value is set
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(217): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(218): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(156): warning #177-D: variable "Left_vector_size" was declared but never referenced
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(156): warning #177-D: variable "Right_vector_size" was declared but never referenced
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(158): warning #177-D: variable "Left_Vector_d" was declared but never referenced
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(158): warning #177-D: variable "Right_Vector_d" was declared but never referenced
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(166): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(167): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(202): warning #549-D: variable "Res_d" is used before its value is set
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(217): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(218): warning #2464-D: conversion from a string literal to "char *" is deprecated
+  
+  P7Q5.cu
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(94): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(156): warning C4101: 'Left_vector_size': unreferenced local variable
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(158): warning C4101: 'Right_Vector_d': unreferenced local variable
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(156): warning C4101: 'Right_vector_size': unreferenced local variable
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(158): warning C4101: 'Left_Vector_d': unreferenced local variable
+C:\Users\StudentPC5\source\repos\MYCUDA\P7Q5.cu(202): warning C4700: uninitialized local variable 'Res_d' used
+     Creating library C:\Users\StudentPC5\source\repos\MYCUDA\x64\Debug\MYCUDA.lib and object C:\Users\StudentPC5\source\repos\MYCUDA\x64\Debug\MYCUDA.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  MYCUDA.vcxproj -> C:\Users\StudentPC5\source\repos\MYCUDA\x64\Debug\MYCUDA.exe
